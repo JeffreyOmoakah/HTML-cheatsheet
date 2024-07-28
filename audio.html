@@ -1,0 +1,36 @@
+<!-- Document Type Declaration -->
+<!DOCTYPE html>
+
+<!-- HTML Document Container -->
+<html lang="en">
+  <!-- Head Section: Contains metadata about the document -->
+  <head>
+    <!-- Page Title: Displayed in browser title bar and search engine results -->
+    <title>Audio Tutorial</title>
+  </head>
+
+  <!-- Body Section: Contains the visible content of the document -->
+  <body>
+    <!-- Audio Player with Controls: Allows user to play, pause, and adjust volume -->
+    <audio src="src/audio.mp3" controls></audio>
+
+    <!-- Audio Loop: Continuously plays the audio file -->
+    <audio src="src/audio.mp3" loop></audio>
+
+    <!-- Muted Audio: Starts playing automatically, but with no sound -->
+    <audio src="src/audio.mp3" muted></audio>
+
+    <!-- Autoplay Audio: Starts playing automatically as soon as the page loads -->
+    <audio src="src/audio.mp3" autoplay></audio>
+
+    <!-- Audio with Multiple Sources: Provides fallback options for different browsers -->
+    <audio src="">
+      <!-- MP3 Source: Compatible with most browsers -->
+      <source src="src/audio.mp3">
+      <!-- WebM Source: Compatible with some browsers -->
+      <source src="src/audio.WebM">
+      <!-- Fallback Text: Displayed if the browser does not support HTML5 audio -->
+      this audio is not supported by HTML 5
+    </audio>
+  </body>
+</html>
