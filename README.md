@@ -11,11 +11,9 @@ Just open index.html on your browser. There are no external dependencies
 
 ## Links:
 - [Tutorial Link](https://youtu.be/HD13eq_Pmp8?si=1wUzeYG27nWTYCqM)
-- 
-- 
 
 ## Getting Started
-- Clone this repository to your local machine using git clone https://github.com/your-username/html-mastery.git
+- Clone this repository to your local machine using git clone https://github.com/JeffreyOmoakah/HTML-cheatsheet.git
 - Open the index.html file in your preferred browser to begin the course
 
 ## Contributing
