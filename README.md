@@ -1,5 +1,5 @@
 # HTML-cheatsheet
-A simple, curated HTML5 and CSS cheat sheet.
+A simple, curated HTML5.
 
 ## Viewing the cheatsheet
 Just open index.html on your browser. There are no external dependencies
